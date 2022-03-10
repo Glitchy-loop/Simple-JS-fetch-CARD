@@ -1,0 +1,43 @@
+.card {
+    box-shadow: .025rem .025rem .2rem .2rem rgb(219, 219, 219);
+    height:600px;
+    margin:3rem auto;
+    width:400px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+
+
+    .image {
+        min-height:70%;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size:cover;
+        object-fit: cover;
+        width:100%;
+    }
+
+    .details {
+        width:80%;
+        height:30%;
+        padding:2rem;
+        text-align: left;
+        margin-top:1.5rem;
+
+        .fullName {
+            font-size: 1.5rem;
+
+            .age {
+                color:rgb(35, 190, 139);
+                font-weight: bold;
+                margin-left:.5rem;
+            }
+        }
+        .email {
+            color:#a1a1a1;
+            font-size: 1.2rem;
+            padding-top:.5rem;
+        }
+    }
+
+}
